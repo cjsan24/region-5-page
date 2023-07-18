@@ -2,7 +2,7 @@ body {
     margin: 0;
     font-family: Arial, sans-serif;
     background-color: antiquewhite;
-    background-image: url(images/xl-los-angeles-quote-wall-lounge.jpg);
+    background-image: url("images/xl-los-angeles-quote-wall-lounge.jpg");
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-position: center;
