@@ -1,0 +1,87 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: antiquewhite;
+    background-image: url(images/xl-los-angeles-quote-wall-lounge.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+  }
+  header {
+    background-color: #bb3030;
+    color: #fff;
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  header a {
+    color: #fff;
+    text-decoration: none;
+    margin-left: 20px;
+  }
+  header .logo {
+    font-size: 24px;
+    font-weight: bold;
+  }
+  header nav {
+    margin-right: 20px;
+  }
+  header ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+  }
+  header li {
+    margin-left: 20px;
+  }
+
+  .container {
+    display: flex;
+  }
+  .column {
+    flex: 1;
+    padding: 20px;
+    margin-top: 30%;
+
+  }
+ 
+  .column:nth-child(odd) {
+    background-color: #e4ee87cc;
+    border: solid black 1px;
+  }
+  .column:nth-child(even) {
+    background-color: #e4ee87cc;
+    border: solid black 1px;
+  }
+
+  .footer{
+    padding: 20px;
+    background-color: black;
+    color: white;
+  }
+
+  .staff-banner {
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+  }
+  .staff-member {
+    display: inline-block;
+    margin: 10px;
+  }
+  .staff-image {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    overflow: hidden;
+    margin-bottom: 10px;
+  }
+  .staff-name {
+    font-weight: bold;
+  }
+  .staff-position {
+    font-style: italic;
+  }
