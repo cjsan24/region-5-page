@@ -60,6 +60,10 @@ body {
     padding: 20px;
     background-color: black;
     color: white;
+    position: fixed;
+    bottom:0;
+    left: 0;
+    width: 100%;
   }
 
   .staff-banner {
@@ -67,6 +71,8 @@ body {
     color: #fff;
     padding: 20px;
     text-align: center;
+    margin-top: 5%;
+    border: solid 1px white;
   }
   .staff-member {
     display: inline-block;
@@ -85,3 +91,98 @@ body {
   .staff-position {
     font-style: italic;
   }
+
+  .menu-icon {
+    display: none;
+    cursor: pointer;
+  }
+
+  .bar {
+    width: 25px;
+    height: 3px;
+    background-color: #fff;
+    margin: 5px 0;
+  }
+
+  .centered-div {
+    background-color: rgba(255, 255, 255);
+    padding: 20px;
+    max-width: auto;
+    text-align: center;
+    border: solid 2px black;
+    margin-top: 50px;
+    margin-left: 20px;
+    margin-right: 20px;
+  }
+
+  .contact-box {
+    max-width: 400px;
+    margin: 50px auto;
+    padding: 20px;
+    background-color: #f2f2f2;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+
+  form {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  label {
+    margin-bottom: 5px;
+  }
+  
+  input, textarea {
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+  }
+  
+  textarea {
+    resize: vertical;
+  }
+  
+  button {
+    padding: 10px 20px;
+    background-color: #333;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  button:hover {
+    background-color: #555;
+  }
+
+@media screen and (max-width: 768px) {
+  .menu-icon {
+    display: block;
+
+  }
+
+  .nav-links {
+    display: none; 
+    flex-direction: column;
+    text-align: center;
+    background-color: #444;
+    position: absolute;
+    top: 50px;
+    left: 0;
+    right: 0;
+  }
+
+  .nav-links li {
+    margin: 15px 0;
+  }
+
+  .nav-links li a {
+    color: #fff;
+  }
+
+  .nav-links.show {
+    display: flex;
+  }
+}
