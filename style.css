@@ -57,21 +57,35 @@ body {
   }
 
   .footer{
-    padding: 20px;
+    padding: 10px;
     background-color: black;
     color: white;
-    position: fixed;
     bottom:0;
     left: 0;
     width: 100%;
   }
+
+  .footer-fixed{
+    position: fixed;
+    padding: 10px;
+    background-color: black;
+    color: white;
+    bottom:0;
+    left: 0;
+    width: 100%;
+  }
+
+  .disciplines-pic{
+    max-width: 500px;
+    max-height: 500px;
+  }
+
 
   .staff-banner {
     background-color: #333;
     color: #fff;
     padding: 20px;
     text-align: center;
-    margin-top: 5%;
     border: solid 1px white;
   }
   .staff-member {
@@ -79,8 +93,8 @@ body {
     margin: 10px;
   }
   .staff-image {
-    width: 100px;
-    height: 100px;
+    width: 300px;
+    height: 300px;
     border-radius: 50%;
     overflow: hidden;
     margin-bottom: 10px;
@@ -91,6 +105,19 @@ body {
   .staff-position {
     font-style: italic;
   }
+
+  .member-pic{
+    width: 300px;
+    height: 300px;
+  } 
+
+a:visited{
+  color: #f2f2f2;
+}
+
+a:active{
+  color: aliceblue;
+}
 
   .menu-icon {
     display: none;
@@ -156,6 +183,31 @@ body {
   button:hover {
     background-color: #555;
   }
+
+  .project-highlights {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    max-width: 1800px;
+    margin: 50px auto;
+  }
+  
+  .project-box {
+    flex: 0 0 calc(20% - 20px);
+    padding: 20px;
+    background-color: #f2f2f2;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  .project-box img {
+    max-width: 100%;
+    border-radius: 5px;
+    margin-bottom: 10px;
+  }
+
 
 @media screen and (max-width: 768px) {
   .menu-icon {
