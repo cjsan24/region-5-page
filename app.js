@@ -18,3 +18,9 @@ window.addEventListener('click', function(event) {
     modal.style.display = 'none';
   }
 });
+
+
+function toggleMenu() {
+    var navLinks = document.getElementById("navLinks");
+    navLinks.classList.toggle("show");
+  }
